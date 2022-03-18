@@ -1,0 +1,7 @@
+.cards-group {
+    display: grid;
+    margin: auto;
+    grid-template-rows: auto;
+    max-width: 282px;
+    gap: 20px;
+}

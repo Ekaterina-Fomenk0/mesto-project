@@ -1,0 +1,7 @@
+.header {
+    min-width: 320px;
+    min-height: 56px;
+    display: flex;
+    padding: 28px 0 0;
+    border-bottom: 1px solid #545454;
+    }
