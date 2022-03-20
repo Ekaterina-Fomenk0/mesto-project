@@ -15,7 +15,7 @@
     .popup__container {
         min-width: 430px;
         height: 330px;
-        /* position: relative; */
+        position: relative; 
 
 
     }
