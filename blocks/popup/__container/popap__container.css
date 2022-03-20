@@ -9,13 +9,16 @@
     margin: 123px 19px;
     justify-content: center;
     align-items: center;
+    position: relative; 
 }
 
 @media screen and (min-width: 880px) {
     .popup__container {
         min-width: 430px;
         height: 330px;
-        position: relative; 
+       
 
 
     }
+
+}
