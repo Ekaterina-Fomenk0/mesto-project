@@ -1,15 +1,16 @@
 .profile__text {
-    margin:  14px auto 0;
     font-size: 14px;
     font-weight: 400;
     max-height: 14px;
+    text-align: end;
     
 }
 
 @media screen and (min-width: 880px) {
     .profile__text {
-        margin: 0;
         font-size: 18px;
         line-height: 22px;
         max-height: 18px;
+        text-align: start;
     }
+}

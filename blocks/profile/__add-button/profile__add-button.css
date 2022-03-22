@@ -1,5 +1,5 @@
 .profile__add-button {
-    max-width: 282px;
+    width: 282px;
     min-height: 50px;
     background-color: transparent;
     border-color: #FFFFFF;
@@ -7,6 +7,7 @@
     background-repeat: no-repeat;
     background-position: center;
     padding: 0;
+    align-items: center;
     }
 
 .profile__add-button:hover {

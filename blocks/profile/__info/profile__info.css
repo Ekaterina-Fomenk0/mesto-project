@@ -1,11 +1,12 @@
 .profile__info {
     margin: 0 auto;
-    min-width: 282px;
-    max-width: 100%;
+    max-width: 282px;
     max-height: 54px;
     padding: 22.25px 0 36px;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+   
         
 }
 

@@ -1,13 +1,26 @@
 .cards-group {
-    display: grid;
     margin: auto;
+    display: grid;
+    max-width: 282px;
+    grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
     grid-template-rows: auto;
     max-width: 282px;
     gap: 20px;
 }
+  @media screen and (min-width: 581px) {
+    .cards-group {
+        max-width: 581px;
+        margin: auto;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px 17px;
+    }
+}  
+
+
 @media screen and (min-width: 880px) {
     .cards-group {
         max-width: 880px;
         grid-template-columns: repeat(3, 282px);
         gap: 20px 17px;
     }
+}
