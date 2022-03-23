@@ -1,16 +1,13 @@
 .profile__text {
-    font-size: 14px;
-    font-weight: 400;
-    max-height: 14px;
-    text-align: end;
-    
-}
+  font-size: 14px;
+  font-weight: 400;
+  text-align: end;
+ }
 
 @media screen and (min-width: 880px) {
-    .profile__text {
-        font-size: 18px;
-        line-height: 22px;
-        max-height: 18px;
-        text-align: start;
+  .profile__text {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: start;
     }
 }

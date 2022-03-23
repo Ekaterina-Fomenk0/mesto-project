@@ -1,19 +1,18 @@
 .header {
-    margin: auto; 
-    min-width: 100%;
-    max-width: 68.75%;
-    min-height: 56px;
-    display: flex;
-    padding: 28px 0 0;
-    border-bottom: 1px solid rgba(84, 84, 84, .7);
-    
-    }
+  margin: auto; 
+  min-width: 100%;
+  max-width: 68.75%;
+  display: flex;
+  padding-top: 28px;
+  padding-bottom: 31.6px;
+  border-bottom: 1px solid rgba(84, 84, 84, .7);
+  }
 
-    @media screen and (min-width: 880px) {
-        .header {
-          min-width: 880px;
-          padding: 45px 0 0;
-          min-height: 74px;
-        
+@media screen and (min-width: 880px) {
+  .header {
+    min-width: 880px;
+    padding-top: 45px;
+    padding-bottom: 41px;
+         
     }
 }
