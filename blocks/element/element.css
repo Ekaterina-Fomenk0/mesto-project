@@ -1,7 +1,7 @@
 .element {
     max-width: 100%;
     display: grid;
-    grid-template-rows: 1fr;
+    grid-template-rows: repeat(minmax(282px, 1fr));
     border-radius: 10px;
     background: #ffffff; 
 }
