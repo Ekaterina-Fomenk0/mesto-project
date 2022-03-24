@@ -1,12 +1,12 @@
 .footer {
-    padding:0;
-    min-width: 88.125%;
-    margin: 48px auto 36px;
+  padding:0;
+  min-width: 88.125%;
+  margin: 48px auto 36px;
 }
 
 @media screen and (min-width: 880px) {
-    .footer {
-        min-width: 880px;
-        margin: 67px auto 60px;
+  .footer {
+    min-width: 880px;
+    margin: 67px auto 60px;
     }
 }

@@ -5,14 +5,13 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-       
-}
+  }
 
 @media screen and (min-width: 880px) {
   .profile__info {
-      max-width: 336px;
-      padding: 0; 
-      margin: 22px 0 0 30px;
-      align-self: auto;
-        }
+    max-width: 336px;
+    padding: 0; 
+    margin: 22px 0 0 30px;
+    align-self: auto;
+    }
 }

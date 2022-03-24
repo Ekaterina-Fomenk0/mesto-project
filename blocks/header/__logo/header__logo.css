@@ -1,15 +1,15 @@
 .header__logo {
-   min-width: 104px;
-   max-height: 24px;
-   object-fit: cover;
-   margin-left: 27px;
+  min-width: 104px;
+  max-height: 24px;
+  object-fit: cover;
+  margin-left: 27px;
 }
 
 @media screen and (min-width: 880px) {
    .header__logo {
-      max-width: 142px;
-      max-height: 33px;
-      margin-top: 0;
-      margin-left: 0; 
+     max-width: 142px;
+     max-height: 33px;
+     margin-top: 0;
+     margin-left: 0; 
    }
 } 
