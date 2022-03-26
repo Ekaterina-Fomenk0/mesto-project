@@ -7,19 +7,19 @@
   padding: 42px 0 36px;
   }
 
-@media screen and (min-width: 581px) {
+@media screen and (min-width: 680px) {
   .profile {
     flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
   }
 }
 
 @media screen and (min-width: 880px) {
   .profile {
     max-width: 880px;
-    flex-direction: row;
     padding: 40px 0 51px;
-    justify-content: start;
-            
+    justify-content: start;         
   }
 }
             

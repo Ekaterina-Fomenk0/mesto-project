@@ -18,13 +18,13 @@
 
   <main>
     <section class="profile">
-      <img class="profile__avatar" src="./images/kusto.jpg" alt="аватар профайла Ж.Кусто">
+      <img class="profile__avatar" src="./images/kusto.jpg" alt="аватар пользователя">
       <div class="profile__info">
         <h1 class="profile__title">Жак-Ив Кусто</h1>
-        <button class="profile__edit-button"> </button>
+        <button type="button" class="profile__edit-button"> </button>
         <p class="profile__text">Исследователь океана</p>
       </div>
-      <button class="profile__add-button"> </button>
+      <button type="button" class="profile__add-button"> </button>
     </section>
 
     <section class="cards-group">
@@ -33,7 +33,7 @@
         <img class="element__image" src="./images/gora-chertov-palets-altay.jpg" alt="Фото Алтай Чертов палец">
         <div class="element__group">
           <h2 class="element__caption">Алтай</h2>
-          <button class="element__like-button"> </button>
+          <button type="button" class="element__like-button"> </button>
         </div>
       </article>
     
@@ -42,7 +42,7 @@
       <img class="element__image" src="./images/Petergof.jpg" alt="Фото Петергоф">
       <div class="element__group">
         <h2 class="element__caption">Петергоф</h2>
-        <button class="element__like-button"> </button>
+        <button type="button" class="element__like-button"> </button>
       </div>
       </article>
 
@@ -51,7 +51,7 @@
         <img class="element__image" src="./images/kamchatka.jpg" alt="Фото Камчатка Долина гейзеров">
         <div class="element__group">
           <h2 class="element__caption">Камчатка</h2>
-          <button class="element__like-button"> </button>
+          <button type="button" class="element__like-button"> </button>
         </div>
         </article>
 
@@ -60,7 +60,7 @@
           <img class="element__image" src="./images/Gamova-poluostrov.jpg" alt="Фото полуостров Гамова">
           <div class="element__group">
             <h2 class="element__caption">Гамова полуостров</h2>
-            <button class="element__like-button"> </button>
+            <button type="button" class="element__like-button"> </button>
         </div>
           </article>
 
@@ -69,7 +69,7 @@
           <img class="element__image" src="./images/Krym.jpg" alt="Фото Крым">
           <div class="element__group">
             <h2 class="element__caption">Крым</h2>
-            <button class="element__like-button"> </button>
+            <button type="button" class="element__like-button"> </button>
           </div>
           </article>
         
@@ -78,7 +78,7 @@
             <img class="element__image" src="./images/Ingushetiya.jpg" alt="Фото Ингушетия">
             <div class="element__group">
               <h2 class="element__caption">Ингушетия</h2>
-              <button class="element__like-button"> </button>
+              <button type="button" class="element__like-button"> </button>
             </div>
           </article>
     </section>
@@ -88,20 +88,18 @@
     <p class="footer__copyright">&copy; 2022 Екатерина Фоменко</p>
   </footer>
 
-  <!-- Модальное окно "Редактировать профиль" -->
+   <!-- Модальное окно "Редактировать профиль"  -->
 
   <div id="#" class="popup popup_opened">
-    <form  class="popup__container" action="#">
-      <button class="popup__close-button"></button>
-      <h2 class="popup__heading">Редактировать профиль</h2>
-      <fieldset class="popup__field">
-      <input type="text" class="popup__field-name" name="name" placeholder="Введите имя" value="Жак-Ив Кусто">
-      </fieldset>
-      <fieldset class="popup__field">
-      <input type="text" class="popup__field-about" name="text" placeholder="Введите описание" value="Исследователь океана">
-      </fieldset>
-      <button type="submit" class="popup__submit-button">Сохранить</button>
-    </form> 
+    <div  class="popup__container">
+      <form class="popup__form" name="profil-mesto" action="#">
+        <button type="button" class="popup__close-button"></button>
+        <h3 class="popup__heading">Редактировать профиль</h3>
+        <input id="profil-name" type="text" class="popup__profil-info" name="name" placeholder="Введите имя" value="">
+        <input id="profil-about" type="text" class="popup__profil-info" name="text" placeholder="Ваш род деятельности" value="">
+        <button type="submit" class="popup__submit-button">Сохранить</button>
+      </form>
+    </div> 
   </div>
-  </body>
+</body>
 </html>

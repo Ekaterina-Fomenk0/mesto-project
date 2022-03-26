@@ -9,3 +9,7 @@
   border: none;
   cursor: pointer;
 }
+
+.element__like-button:hover {
+  opacity: 0.5;
+}

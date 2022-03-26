@@ -8,16 +8,19 @@
   background-position: center;
   padding: 0;
   margin-top: 6px; 
-  margin-left: 10px;  
-  cursor: pointer;      
+  margin-left: 10px;   
+  border: 2px solid #FFFFFF;;  
+  cursor: pointer;  
 }
+
 .profile__edit-button:hover {
   opacity: 0.6;
 }
-@media screen and (min-width: 581px) {
+
+@media screen and (min-width: 680px) {
   .profile__edit-button {
     width: 24px;
     height:24px;
     margin: 15px 0 0 18px;
-    }
+  }
 }
