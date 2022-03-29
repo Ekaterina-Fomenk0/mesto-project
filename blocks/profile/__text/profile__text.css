@@ -3,12 +3,14 @@
   line-height: 17px;
   font-weight: 400;
   text-align: end;
+  align-content: flex-start;
+  
 }
 
 @media screen and (min-width: 880px) {
   .profile__text {
     font-size: 18px;
-    line-height: 22px;
+    line-height: 20px;
     text-align: start;
   }
 }
