@@ -21,7 +21,7 @@
       <img class="profile__avatar" src="./images/kusto.jpg" alt="аватар пользователя">
       <div class="profile__info">
         <h1 class="profile__title">Жак-Ив Кусто</h1>
-        <button type="button" class="profile__edit-button"> </button>
+        <button type="button" class="profile__edit-button" id="open-info-popup"> </button>
         <p class="profile__text">Исследователь океана</p>
       </div>
       <button type="button" class="profile__add-button"> </button>
@@ -90,11 +90,11 @@
 
    <!-- Модальное окно "Редактировать профиль"  -->
 
-  <div id="#" class="popup popup_opened">
+  <div id="info-popup" class="popup">
     <div  class="popup__container">
 
-      <form class="popup__form" name="profil-mesto" action="#">
-        <button type="button" class="popup__close-button"></button>
+      <form class="popup__form" name="profil-mesto" action="#" id="profile-popup-form">
+        <button type="button" class="popup__close-button" id="close-button"></button>
         <h3 class="popup__heading">Редактировать профиль</h3>
         <input id="profil-name" type="text" class="popup__profil-info" name="name" 
           placeholder="Введите имя" value="">
@@ -104,5 +104,6 @@
       </form>
     </div> 
   </div>
+  <script src="index.js"></script>
 </body>
 </html>
