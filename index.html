@@ -104,6 +104,19 @@
       </form>
     </div> 
   </div>
-  <script src="index.js"></script>
+  <div class="popup popup_opacity_light" id="popup-mesto">
+    <div class="popup__container">
+      <form action="#" class="popup__form" name="cardAddForm" id="card-popup-form">
+        <button type="button" id="card-btn-close" class="buttons__popup-close"></button>
+        <h3 class="popup__header">Новое место</h3>
+        <input type="text" name="card-title" class="popup__account-text" placeholder="Название"
+               id="element-name">
+        <input type="text" name="card-url" class="popup__account-text" placeholder="Ссылка на картинку"
+               id="element-url">
+        <button type="submit" class="popup__btn-account-submit">Создать</button>
+      </form>
+    </div>
+  </div>
+  <script src="./scripts/index.js"></script>
 </body>
 </html>
